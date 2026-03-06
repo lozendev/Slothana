@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sloth-yellow: #FFC838;
+  --color-sloth-purple: #952567;
+  --color-sloth-white: #FFFFF1;
+  --color-sloth-dark: #253232;
+  --color-sloth-black: #000000;
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-sloth-black);
+  color: var(--color-sloth-white);
+  font-family: var(--font-sans);
+}
