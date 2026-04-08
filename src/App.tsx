@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <nav className="absolute top-0 left-0 w-full z-50 flex items-start justify-between p-4 md:px-8">
       <div className="flex flex-col items-center justify-center w-24">
-        <img src="/Slothana/Prof/rounded.png" alt="Logo" className="w-16 h-16 object-contain" onError={(e) => { e.currentTarget.src = '/Slothana/Prof/rounded.png'; }} />
+        <img src="/Prof/rounded.png" alt="Logo" className="w-16 h-16 object-contain" onError={(e) => { e.currentTarget.src = '/Slothana/Prof/rounded.png'; }} />
         <span className="text-[7.5px] leading-tight uppercase font-bold tracking-widest text-sloth-white/30 mt-1 text-center w-full block">LOZENDEV PRJKT</span>
       </div>
 
@@ -49,7 +49,7 @@ const Hero = () => {
       <Nav />
       {/* Background elements */}
       <div className="absolute inset-0 z-0">
-        <img src="/Slothana/Prof/heroBG.jpg" onError={(e) => { e.currentTarget.src = '/Slothana/Prof/heroBG.jpg'; }} className="w-full h-full object-cover object-top" alt="Hero Background" />
+        <img src="/Prof/heroBG.jpg" onError={(e) => { e.currentTarget.src = '/Slothana/Prof/heroBG.jpg'; }} className="w-full h-full object-cover object-top" alt="Hero Background" />
         <div className="absolute inset-0 bg-gradient-to-t from-sloth-black via-sloth-black/60 to-transparent" />
       </div>
 
@@ -149,7 +149,7 @@ const Lore = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-tr from-sloth-purple to-sloth-yellow rounded-full blur-2xl opacity-20 animate-pulse" style={{ animationDuration: '10s' }} />
             <img
-              src="/Slothana/Iconography/upside.jpg"
+              src="/Iconography/upside.jpg"
               alt="Upside Down Sloth"
               className="rounded-3xl object-cover w-full h-full border-4 border-sloth-dark/50 shadow-2xl relative z-10"
               onError={(e) => { e.currentTarget.src = '../Iconography/upside.jpg'; }}
@@ -159,10 +159,10 @@ const Lore = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {[
-            { text: "The slower the chart moves, the more based it becomes.", bg: "/Slothana/Iconography/sq1.jpg" },
-            { text: "Price barely budges? → 'Sloth approved.'", bg: "/Slothana/Iconography/sq2.jpg" },
-            { text: "Sideways for 3 weeks? → 'Peak zen.'", bg: "/Slothana/Iconography/sq3.jpg" },
-            { text: "Tiny green candle after 48 hours? → 'We are so back (eventually).'", bg: "/Slothana/Iconography/sq4.jpg" }
+            { text: "The slower the chart moves, the more based it becomes.", bg: "/Iconography/sq1.jpg" },
+            { text: "Price barely budges? → 'Sloth approved.'", bg: "/Iconography/sq2.jpg" },
+            { text: "Sideways for 3 weeks? → 'Peak zen.'", bg: "/Iconography/sq3.jpg" },
+            { text: "Tiny green candle after 48 hours? → 'We are so back (eventually).'", bg: "/Iconography/sq4.jpg" }
           ].map((card, i) => (
             <motion.div
               key={i}
@@ -203,7 +203,7 @@ const Lore = () => {
                 className="w-full h-full object-contain"
                 controls
                 autoPlay
-                src="/Slothana/SlothVidmp42.webm"
+                src="/SlothVidmp42.webm"
                 onError={(e) => { e.currentTarget.src = '/Slothana/SlothVidmp42.webm'; }}
               >
                 Your browser does not support the video tag.
@@ -221,25 +221,25 @@ const WhyBuy = () => {
     {
       title: "Anti-Rug Guarantee",
       desc: "Rugs happen fast. We can't even move that quick. Your funds? Safer than a sloth in a hammock.",
-      img: "/Slothana/Iconography/w1.jpg",
+      img: "/Iconography/w1.jpg",
       align: "left"
     },
     {
       title: "Infinite Patience Pump",
       desc: "While others dump at the first red candle, we thrive on boredom. Sideways action? That's our foreplay.",
-      img: "/Slothana/Iconography/w2.jpg",
+      img: "/Iconography/w2.jpg",
       align: "right"
     },
     {
       title: "Zero Effort Required",
       desc: "No staking, no farming—just hold and watch moss grow. (Pro tip: Check back in 2027 for gains.)",
-      img: "/Slothana/Iconography/w3.jpg",
+      img: "/Iconography/w3.jpg",
       align: "left"
     },
     {
       title: "Meme Immunity",
       desc: "Immune to hype cycles. When the market crashes, we're already at rock bottom... chilling.",
-      img: "/Slothana/Iconography/w4.jpg",
+      img: "/Iconography/w4.jpg",
       align: "right"
     }
   ];
@@ -378,22 +378,22 @@ const HowToBuy = () => {
   const steps = [
     {
       title: "Get a wallet (e.g., Phantom).",
-      img: "/Slothana/Iconography/wallet.png",
+      img: "/Iconography/wallet.png",
       alt: "sloth holding wallet"
     },
     {
       title: "Swap for $SLO on [DEX].",
-      img: "/Slothana/Iconography/laptop.png",
+      img: "/Iconography/laptop.png",
       alt: "sloth in bank counter exchanging with another sloth"
     },
     {
       title: "Hold forever (or until zen achieved).",
-      img: "/Slothana/Iconography/6.png",
+      img: "/Iconography/6.png",
       alt: "sloth holding coin above his head with both claws, beaming with happiness"
     },
     {
       title: "Stare at chart. Realize time is an illusion.",
-      img: "/Slothana/Iconography/5.png",
+      img: "/Iconography/5.png",
       alt: "sloth stairing at a computer trading chart"
     }
   ];
