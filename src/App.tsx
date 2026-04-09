@@ -11,7 +11,7 @@ const Nav = () => {
     <nav className="absolute top-0 left-0 w-full z-50 flex items-start justify-between p-4 md:px-8">
       <div className="flex flex-col items-center justify-center w-24">
         <img src="/Prof/rounded.png" alt="Logo" className="w-16 h-16 object-contain" onError={(e) => { e.currentTarget.src = '/Slothana/Prof/rounded.png'; }} />
-        <span className="text-[7.5px] leading-tight uppercase font-bold tracking-widest text-sloth-white/30 mt-1 text-center w-full block">LOZENDEV PRJKT</span>
+        <a href="https://www.lozen.dev" target="_blank" rel="noopener noreferrer" className="text-[7.5px] leading-tight uppercase font-bold tracking-widest text-sloth-white/30 hover:text-sloth-white transition-colors mt-1 text-center w-full block">LOZENPRJKT#3</a>
       </div>
 
       <div className="hidden md:flex flex-col items-center mt-2 gap-4">
@@ -27,7 +27,7 @@ const Nav = () => {
       </div>
 
       <div className="mt-2 w-24 flex justify-end">
-        <a href="#" className="w-12 h-12 flex items-center justify-center rounded-full bg-sloth-dark/50 hover:bg-sloth-white hover:text-sloth-black text-sloth-white transition-all border border-sloth-white/10">
+        <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 flex items-center justify-center rounded-full bg-sloth-dark/50 hover:bg-sloth-white hover:text-sloth-black text-sloth-white transition-all border border-sloth-white/10">
           <XLogo />
         </a>
       </div>
@@ -81,14 +81,14 @@ const Hero = () => {
           </button>
 
           <div className="flex flex-wrap items-center justify-center gap-3 w-full sm:w-auto">
-            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-sloth-yellow text-sloth-black hover:bg-sloth-yellow/90 px-6 py-4 rounded-full font-bold text-lg transition-colors">
+            <a href="https://www.pump.fun" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-sloth-yellow text-sloth-black hover:bg-sloth-yellow/90 px-6 py-4 rounded-full font-bold text-lg transition-colors">
               <ShoppingCart className="w-5 h-5" />
               Buy on Pump
-            </button>
-            <button className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-sloth-purple text-sloth-white hover:bg-sloth-purple/90 px-6 py-4 rounded-full font-bold text-lg transition-colors">
+            </a>
+            <a href="https://www.dexscreener.com" target="_blank" rel="noopener noreferrer" className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-sloth-purple text-sloth-white hover:bg-sloth-purple/90 px-6 py-4 rounded-full font-bold text-lg transition-colors">
               <LineChart className="w-5 h-5" />
               View Chart
-            </button>
+            </a>
           </div>
         </div>
       </motion.div>
@@ -446,7 +446,7 @@ const Footer = () => {
         <div className="space-y-6">
           <h2 className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-sloth-yellow to-sloth-purple tracking-[0.2em] ml-2">$SLO</h2>
           <div className="flex justify-center">
-            <a href="#" className="w-14 h-14 rounded-full bg-sloth-dark flex items-center justify-center text-sloth-white hover:text-sloth-black hover:bg-sloth-white hover:scale-110 transition-all border border-sloth-white/10 shadow-lg">
+            <a href="https://www.x.com" target="_blank" rel="noopener noreferrer" className="w-14 h-14 rounded-full bg-sloth-dark flex items-center justify-center text-sloth-white hover:text-sloth-black hover:bg-sloth-white hover:scale-110 transition-all border border-sloth-white/10 shadow-lg">
               <XLogo />
             </a>
           </div>
@@ -459,10 +459,10 @@ const Footer = () => {
 
         <div className="pt-12 w-full border-t border-sloth-white/10 flex justify-center">
           <a
-            href="#"
+            href="https://www.lozen.dev" target="_blank" rel="noopener noreferrer"
             className="text-[10px] tracking-widest text-sloth-white/30 hover:text-sloth-yellow transition-colors uppercase font-bold"
           >
-            2026 © LOZENDEV PRJKT
+            2026 © LOZENPRJKT#3
           </a>
         </div>
       </div>
